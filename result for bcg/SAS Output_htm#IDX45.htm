@@ -1,0 +1,1782 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+<META content="text/html; charset=Big5-HKSCS" http-equiv=Content-type>
+<STYLE type=text/css>.activelink {
+	COLOR: #800080
+}
+.aftercaption {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; PADDING-TOP: 4pt; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.batch {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'SAS Monospace', MingLiu, Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 7px; FONT-STYLE: normal; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #fafbfe
+}
+.beforecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.body {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.bodydate {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; WIDTH: 100%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.byline {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bylinecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.caption {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.cell {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.container {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contentprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contenttitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.continued {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.data {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: italic; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataempty {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datafixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: MingLiu, Courier; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrong {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.date {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.document {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #800080
+}
+A:active {
+	COLOR: #800080
+}
+.errorbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.errorcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.errorcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.extendedpage {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #000000 1pt solid; BORDER-BOTTOM: #000000 1pt solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 1pt solid; BACKGROUND-COLOR: #fafbfe
+}
+.fatalbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.frame {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.graph {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.header {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headersandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #edf2f9
+}
+.headerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.heading1 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading2 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading3 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading4 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading5 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading6 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.index {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.indextitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: #000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: #000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.link {
+	COLOR: #0000ff
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.note {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notebanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notecontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notecontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.output {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.pageno {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagestitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.paragraph {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.parskip {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: left; BACKGROUND-COLOR: #fafbfe
+}
+.proctitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.proctitlefixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier, monospace; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.rowfooter {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheader {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.systemfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter10 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter2 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter3 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter4 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter5 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter6 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter7 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter8 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter9 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle10 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle2 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle3 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle4 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle5 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle6 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle7 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle8 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle9 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systitleandfootercontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.table {
+	BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 0px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #c1c1c1 0px solid; BORDER-SPACING: 0px; BORDER-LEFT: #c1c1c1 1px solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.titlesandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.usertext {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.visitedlink {
+	COLOR: #800080
+}
+.warnbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.warncontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.warncontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+</STYLE>
+
+<SCRIPT language=javascript type=text/javascript>
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY class=body onload=startup() onunload=shutdown()>
+<SCRIPT language=javascript type=text/javascript>
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</SCRIPT>
+
+<DIV class=branch><A name=IDX></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: flour </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">112</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">112</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX1></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">4</TD>
+    <TD class="r data">4804.88923</TD>
+    <TD class="r data">1201.22231</TD>
+    <TD class="r data">2.22</TD>
+    <TD class="r data">0.0719</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">107</TD>
+    <TD class="r data">57950</TD>
+    <TD class="r data">541.58883</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">111</TD>
+    <TD class="r data">62755</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX2></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">23.27206</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.0766</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data">6.50161</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data">0.0420</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data">357.94321</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX3></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">7.54538</TD>
+    <TD class="r data">2.80757</TD>
+    <TD class="r data">2.69</TD>
+    <TD class="r data">0.0083</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>drink</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data" noWrap>-0.15973</TD>
+    <TD class="r data">0.15031</TD>
+    <TD class="r data" noWrap>-1.06</TD>
+    <TD class="r data">0.2903</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dairy</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data" noWrap>-0.27258</TD>
+    <TD class="r data">0.17939</TD>
+    <TD class="r data" noWrap>-1.52</TD>
+    <TD class="r data">0.1316</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>instant_food</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.32174</TD>
+    <TD class="r data">0.15760</TD>
+    <TD class="r data">2.04</TD>
+    <TD class="r data">0.0437</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sauce</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.13130</TD>
+    <TD class="r data">0.23007</TD>
+    <TD class="r data">0.57</TD>
+    <TD class="r data">0.5694</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX4></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: flour </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for flour." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel.png"> </DIV></DIV><BR><A 
+name=IDX5></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Panel of scatterplots of residuals by regressors for flour." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot.png"> </DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX6></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: feed </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">106</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">118</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX7></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">4</TD>
+    <TD class="r data">9880.16002</TD>
+    <TD class="r data">2470.04000</TD>
+    <TD class="r data">4.07</TD>
+    <TD class="r data">0.0042</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">101</TD>
+    <TD class="r data">61314</TD>
+    <TD class="r data">607.07122</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">105</TD>
+    <TD class="r data">71194</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX8></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">24.63882</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.1388</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data">0.78236</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data">0.1047</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data">3149.29991</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX9></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.28771</TD>
+    <TD class="r data">3.07456</TD>
+    <TD class="r data">0.09</TD>
+    <TD class="r data">0.9256</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>drink</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data" noWrap>-0.20024</TD>
+    <TD class="r data">0.16029</TD>
+    <TD class="r data" noWrap>-1.25</TD>
+    <TD class="r data">0.2145</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dairy</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.21628</TD>
+    <TD class="r data">0.19446</TD>
+    <TD class="r data">1.11</TD>
+    <TD class="r data">0.2687</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>instant_food</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.30399</TD>
+    <TD class="r data">0.17004</TD>
+    <TD class="r data">1.79</TD>
+    <TD class="r data">0.0768</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sauce</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.57430</TD>
+    <TD class="r data">0.24804</TD>
+    <TD class="r data">2.32</TD>
+    <TD class="r data">0.0226</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX10></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: feed </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for feed." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel1.png"> </DIV></DIV><BR><A 
+name=IDX11></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Panel of scatterplots of residuals by regressors for feed." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot1.png"> </DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX12></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: bread </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">112</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">112</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX13></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">4</TD>
+    <TD class="r data">1465.40185</TD>
+    <TD class="r data">366.35046</TD>
+    <TD class="r data">6.94</TD>
+    <TD class="r data">&lt;.0001</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">107</TD>
+    <TD class="r data">5645.70974</TD>
+    <TD class="r data">52.76364</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">111</TD>
+    <TD class="r data">7111.11160</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX14></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">7.26386</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.2061</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data">5.03018</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data">0.1764</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data">144.40558</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX15></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">3.19028</TD>
+    <TD class="r data">0.87632</TD>
+    <TD class="r data">3.64</TD>
+    <TD class="r data">0.0004</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>drink</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.07990</TD>
+    <TD class="r data">0.04692</TD>
+    <TD class="r data">1.70</TD>
+    <TD class="r data">0.0915</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dairy</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.18905</TD>
+    <TD class="r data">0.05599</TD>
+    <TD class="r data">3.38</TD>
+    <TD class="r data">0.0010</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>instant_food</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.10195</TD>
+    <TD class="r data">0.04919</TD>
+    <TD class="r data">2.07</TD>
+    <TD class="r data">0.0406</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sauce</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.17448</TD>
+    <TD class="r data">0.07181</TD>
+    <TD class="r data">2.43</TD>
+    <TD class="r data">0.0168</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX16></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: bread </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for bread." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel2.png"> </DIV></DIV><BR><A 
+name=IDX17></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Panel of scatterplots of residuals by regressors for bread." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot2.png"> </DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX18></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">224</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX19></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: oil </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">112</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">112</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX20></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">4</TD>
+    <TD class="r data">4821.47834</TD>
+    <TD class="r data">1205.36958</TD>
+    <TD class="r data">0.61</TD>
+    <TD class="r data">0.6549</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">107</TD>
+    <TD class="r data">210769</TD>
+    <TD class="r data">1969.80093</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">111</TD>
+    <TD class="r data">215590</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX21></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">44.38244</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.0224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data" noWrap>-1.64777</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data" noWrap>-0.0142</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data" noWrap>-2693.48860</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX22></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data" noWrap>-4.53806</TD>
+    <TD class="r data">5.35435</TD>
+    <TD class="r data" noWrap>-0.85</TD>
+    <TD class="r data">0.3986</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>drink</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.20794</TD>
+    <TD class="r data">0.28665</TD>
+    <TD class="r data">0.73</TD>
+    <TD class="r data">0.4698</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dairy</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data" noWrap>-0.07490</TD>
+    <TD class="r data">0.34212</TD>
+    <TD class="r data" noWrap>-0.22</TD>
+    <TD class="r data">0.8271</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>instant_food</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.31650</TD>
+    <TD class="r data">0.30056</TD>
+    <TD class="r data">1.05</TD>
+    <TD class="r data">0.2947</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sauce</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.01412</TD>
+    <TD class="r data">0.43877</TD>
+    <TD class="r data">0.03</TD>
+    <TD class="r data">0.9744</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX23></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: oil </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for oil." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel3.png"> </DIV></DIV><BR><A 
+name=IDX24></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Panel of scatterplots of residuals by regressors for oil." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot3.png"> </DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX25></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: flour </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">213</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">11</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX26></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">3000.36781</TD>
+    <TD class="r data">3000.36781</TD>
+    <TD class="r data">7.12</TD>
+    <TD class="r data">0.0082</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">211</TD>
+    <TD class="r data">88976</TD>
+    <TD class="r data">421.68491</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">212</TD>
+    <TD class="r data">91976</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX27></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">20.53497</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.0326</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data">6.25638</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data">0.0280</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data">328.22417</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX28></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">4.86356</TD>
+    <TD class="r data">1.50080</TD>
+    <TD class="r data">3.24</TD>
+    <TD class="r data">0.0014</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>instant_food</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.25049</TD>
+    <TD class="r data">0.09391</TD>
+    <TD class="r data">2.67</TD>
+    <TD class="r data">0.0082</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX29></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: flour </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for flour." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel4.png"> </DIV></DIV><BR><A 
+name=IDX30></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Scatter plot of residuals by instant_food for flour." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot4.png"> </DIV></DIV><BR><A 
+name=IDX31></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Scatterplot of flour by instant_food overlaid with the fit line, a 95% confidence band and lower and upper 95% prediction limits." 
+src="SAS%20Output_htm%23IDX45.files/FitPlot.png"> </DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX32></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: feed </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">207</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">17</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX33></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">3673.12083</TD>
+    <TD class="r data">3673.12083</TD>
+    <TD class="r data">7.51</TD>
+    <TD class="r data">0.0067</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">205</TD>
+    <TD class="r data">100236</TD>
+    <TD class="r data">488.95766</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">206</TD>
+    <TD class="r data">103909</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX34></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">22.11239</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.0353</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data">6.31700</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data">0.0306</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data">350.04543</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX35></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">4.93052</TD>
+    <TD class="r data">1.61803</TD>
+    <TD class="r data">3.05</TD>
+    <TD class="r data">0.0026</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sauce</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.29664</TD>
+    <TD class="r data">0.10823</TD>
+    <TD class="r data">2.74</TD>
+    <TD class="r data">0.0067</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX36></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: feed </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for feed." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel5.png"> </DIV></DIV><BR><A 
+name=IDX37></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Scatter plot of residuals by sauce for feed." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot5.png"> </DIV></DIV><BR><A 
+name=IDX38></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Scatterplot of feed by sauce overlaid with the fit line, a 95% confidence band and lower and upper 95% prediction limits." 
+src="SAS%20Output_htm%23IDX45.files/FitPlot1.png"> </DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX39></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: juice </DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Number of Observations" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Read</TH>
+    <TD class="r data">224</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations Used</TH>
+    <TD class="r data">101</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Number of Observations with Missing 
+      Values</TH>
+    <TD class="r data">123</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX40></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Analysis of Variance" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Analysis of Variance</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Source</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Sum of<BR>Squares</TH>
+    <TH class="r b header" scope=col>Mean<BR>Square</TH>
+    <TH class="r b header" scope=col>F Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Model</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1884.73800</TD>
+    <TD class="r data">1884.73800</TD>
+    <TD class="r data">8.18</TD>
+    <TD class="r data">0.0052</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Error</TH>
+    <TD class="r data">99</TD>
+    <TD class="r data">22817</TD>
+    <TD class="r data">230.47314</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Corrected Total</TH>
+    <TD class="r data">100</TD>
+    <TD class="r data">24702</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX41></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Fit Statistics" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Root MSE</TH>
+    <TD class="r data">15.18134</TD>
+    <TH class="l rowheader" scope=row>R-Square</TH>
+    <TD class="r data">0.0763</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Dependent Mean</TH>
+    <TD class="r data">4.01663</TD>
+    <TH class="l rowheader" scope=row>Adj R-Sq</TH>
+    <TD class="r data">0.0670</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Coeff Var</TH>
+    <TD class="r data">377.96183</TD>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TD class="r data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX42></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Reg: Parameter Estimates" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=6 scope=colgroup>Parameter Estimates</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>Variable</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Parameter<BR>Estimate</TH>
+    <TH class="r b header" scope=col>Standard<BR>Error</TH>
+    <TH class="r b header" scope=col>t&nbsp;Value</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;|t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">1.59637</TD>
+    <TD class="r data">1.73153</TD>
+    <TD class="r data">0.92</TD>
+    <TD class="r data">0.3588</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>instant_food</TH>
+    <TH class="r data">1</TH>
+    <TD class="r data">0.29929</TD>
+    <TD class="r data">0.10466</TD>
+    <TD class="r data">2.86</TD>
+    <TD class="r data">0.0052</TD></TR></TBODY></TABLE></DIV></DIV><BR>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX43></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">The SAS System</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">The REG Procedure</DIV>
+<DIV class="c proctitle">Model: MODEL1</DIV>
+<DIV class="c proctitle">Dependent Variable: juice </DIV>
+<P>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 640px; WIDTH: 640px" border=0 
+alt="Panel of fit diagnostics for juice." 
+src="SAS%20Output_htm%23IDX45.files/DiagnosticsPanel6.png"> </DIV></DIV><BR><A 
+name=IDX44></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Scatter plot of residuals by instant_food for juice." 
+src="SAS%20Output_htm%23IDX45.files/ResidualPlot6.png"> </DIV></DIV><BR><A 
+name=IDX45></A>
+<DIV>
+<DIV class=c><IMG class=c style="HEIGHT: 480px; WIDTH: 640px" border=0 
+alt="Scatterplot of juice by instant_food overlaid with the fit line, a 95% confidence band and lower and upper 95% prediction limits." 
+src="SAS%20Output_htm%23IDX45.files/FitPlot2.png"> 
+</DIV></DIV><BR></DIV></BODY></HTML>
